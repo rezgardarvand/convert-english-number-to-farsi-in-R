@@ -13,7 +13,3 @@ FarsiDigits <- function(num) {
   num <- ifelse(substring(num,1,1)=="-", paste0(sub("-","",num),"-"), num)
   num
 }
-library(ggplot2)
-library(car)
-data<-iris
-x<-ggplot(data = data, aes(data[,1],data[,2]))+ geom_point()
