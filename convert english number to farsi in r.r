@@ -13,3 +13,5 @@ FarsiDigits <- function(num) {
   num <- ifelse(substring(num,1,1)=="-", paste0(sub("-","",num),"-"), num)
   num
 }
+library(ggplot2)
+library(car)
